@@ -1,0 +1,20 @@
+# Carpetas generadas al compilar
+Debug/
+Release/
+Binaries/
+
+# Archivos compilados
+*.o
+*.d
+*.su
+*.elf
+*.hex
+*.bin
+*.map
+
+# Configuración temporal
+.settings/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
