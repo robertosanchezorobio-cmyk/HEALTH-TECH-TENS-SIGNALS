@@ -134,12 +134,6 @@ The complete laboratory report containing the mathematical derivations and imple
 
 ---
 
-## System Architecture
-
-![System Architecture](Images/block_diagram_tens.png)
-
----
-
 ## Firmware Flowchart
 
 ![Firmware Flowchart](Images/State_Machine_Diagram.png)
