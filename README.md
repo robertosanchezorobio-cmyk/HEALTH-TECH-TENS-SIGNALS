@@ -134,31 +134,6 @@ The complete laboratory report containing the mathematical derivations and imple
 
 ---
 
-## Signal Generation Pipeline
-
-```text
-MATLAB Modeling
-      │
-      ▼
-Waveform Validation
-      │
-      ▼
-Lookup Table Generation
-      │
-      ▼
-STM32 Firmware
- ├── ADC
- ├── DMA
- ├── Timers
- ├── DAC
- └── GPIO
-      │
-      ▼
-Analog TENS Waveform
-```
-
----
-
 ## System Architecture
 
 ![System Architecture](Images/block_diagram_tens.png)
@@ -166,14 +141,6 @@ Analog TENS Waveform
 ---
 
 ## Firmware Flowchart
-
-![Firmware Flowchart](Images/State_Machine_Diagram.png)
-
----## Results
-
-The figures below summarize both the mathematical modeling and the embedded implementation of the therapeutic waveforms.
-
-### Firmware Architecture
 
 ![Firmware Flowchart](Images/State_Machine_Diagram.png)
 
